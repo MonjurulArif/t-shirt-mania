@@ -3,7 +3,7 @@ import { RingContext } from "../Grandpa/Grandpa";
 
 const Special = ({ ring }) => {
   //ring from Myself
-  //importing context from Grandpa
+  //importing context from Grandpa using useContext
   // const ringUsingContext = useContext(RingContext);
 
   const [house, setHouse] = useContext(RingContext);
