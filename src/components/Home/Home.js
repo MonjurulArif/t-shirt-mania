@@ -23,6 +23,7 @@ const Home = () => {
 
   const handleRemoveItem = (tshirt) => {
     // console.log(tshirt);
+    //
     const remaining = cart.filter((ts) => ts._id !== tshirt._id);
     setCart(remaining);
   };
